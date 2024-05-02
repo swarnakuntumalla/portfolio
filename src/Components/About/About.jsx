@@ -17,7 +17,7 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Abhijeet Chaudhari</span>
+          Hello, I am <span className="about__name">Swarna Kuntumalla</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
@@ -27,7 +27,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Abhi-lab2"
+            href="https://github.com/swarnakuntumalla"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -36,7 +36,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:abhijeetchaudhari110@gmail.com"
+            href="mailto:swarnakuntumalla2000@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -45,7 +45,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+(91)7387884703"
+            href="tel:+(91)8374652979"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -54,7 +54,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/abhijeet-chaudhari/"
+            href="https://www.linkedin.com/in/swarna-latha-kuntumalla-4719b3250/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -62,22 +62,13 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
-            href="https://twitter.com/Abhijeet0296"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
         </div>
 
         <button
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1kbxc_eFa6XnmgQMJEZL0-4ZAecvcUlzm/view?usp=sharing"
+              "https://drive.google.com/file/d/1Wx86aGDDok9nrrR01qz-4FJIBD4C221n/view?usp=drive_link"
             );
           }}
         >

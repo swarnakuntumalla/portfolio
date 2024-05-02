@@ -11,7 +11,7 @@ import {
   SiNetlify,
 } from "react-icons/si";
 import { DiCss3, DiMysql } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiHeroku, SiTypescript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
@@ -64,12 +64,12 @@ export const Techstacks = () => {
             <h5>MaterialUI</h5>
           </div>
           <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
+            <BsBootstrap />
+            <h5>BootStrap</h5>
           </div>
           <div>
-            <BsWordpress />
-            <h5>Wordpress</h5>
+            <SiTypescript />
+            <h5>TypeScript</h5>
           </div>
         </div>
       </div>

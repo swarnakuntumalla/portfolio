@@ -63,7 +63,7 @@ export const Timeline = () => {
               Neviton Softech Pvt Ltd.
             </h4>
             <p data-aos="fade-right">
-              Working as a MERN Full Stack Web Developer with proficient in
+              Working as Software Developer with proficient in
               writing complex SQL queries, designing efficient database schemas,
               and utilizing AWS services like CodeCommit, CloudWatch, and S3.
               Skilled in JIRA, agile techniques, and working with tech stacks
@@ -73,43 +73,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Sept 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School (Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Dec 2021 - June 2022"}
+            date={"Dec 2021 - Jun 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -131,173 +95,57 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Software Engineer and Business Development Intern (part-time)
+              Software Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Knexta (Bangalore)
+            </h4>
+            <p data-aos="fade-right">
+              Designed and implemented modular AngularJS components, resulting in 50% reusability of code. Optimized application performance by identifying and refactoring inefficient code, resulting in a 20% increase in speed. Helping to structure the frontend and backend code
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Jul 2019 - Aug 2021"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer Intern
             </h3>{" "}
             {/* <br /> */}
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Flippies Gourmet Pvt Ltd, Mumbai (Remote)
+              IB Hubs (Kurnool)
             </h4>
             <p data-aos="fade-right">
-              Part of team to build the webpages and also part of a team in
-              Business Strategy and Development for competitive strategies.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Sept 2020 - Nov 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Production Planning Engineer
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Teryair Equipments Pvt Ltd, Mumbai
-            </h4>
-            <p data-aos="fade-right">
-              Build the website using Wordpress and SEO (www.teryair.com) and
-              Re-Designed few pnumatic pumps to increase the output efficiency
-              of the products.
+              Getting trained in 4.0 technologies.Built many impressive Static, Dynamic and Responsive websites.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Nov 2018 - May 2019"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Design Intern
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Raychem RPG Pvt Ltd, Mumbai
-            </h4>
-            <p data-aos="fade-right">
-              Designed and developed pneumatic wire cutting machine - which will
-              help to increase the production output of the company. Design and
-              developed from scratch.
-            </p>
-          </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
-            </p>
-          </VerticalTimelineElement> */}
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Founder & Director (Part Time)
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
-            </p>
-          </VerticalTimelineElement> */}
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Jul 2016 - Aug 2019"}
+            date={"Aug 2017 - Aug 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -319,23 +167,22 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [B.E. (Production and Industial Engineering)]
+              Student [B.Tech. (Computer Science Engineering)]
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Fr. Conceicao Rodrigues College of Engineering, Mumbai (MH)
+              IIIT RGUKT RK Valley (AP, India)
             </h4>
             <p data-aos="fade-right">
-              Studied Production Engineering which consists of all the subjects
-              accross all engineering and production streams. Passed with
+              Studied Computer Science Engineering and Passed with
               First-class Distinction.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"May 2016"}
+            date={"Aug 2015 - Aug 2017"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -357,19 +204,18 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [Diploma (Production Engg.)]
+              Student [Pre-University Course]
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Vartak Polytechnic, Mumbai
+              IIIT RGUKT RK Valley (AP, India)
             </h4>
             <p data-aos="fade-right">
-              Studied Diploma and Passed with First-Class Distinction
+              
             </p>
           </VerticalTimelineElement>
-
           <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{

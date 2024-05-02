@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
-import Image from "./../../assets/logonew.png";
+import Image from "./../../assets/logo.png";
 
 import "./Header.css";
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
             <span>
               <img src={Image} alt="logo" />
             </span>
-            bhijeet
+            warna
           </a>
         </h3>
         <Navbar />

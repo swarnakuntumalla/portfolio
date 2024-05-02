@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/myPhoto.jpg";
+import profilePic from "../../assets/myPhoto.jpeg";
 
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -21,18 +21,15 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Abhijeet Chaudhari </span> and I am
+                <span className="different">Swarna Kuntumalla </span> and I am
                 from{" "}
-                <span className="different"> Mumbai, Maharashtra (India)</span>.
-                I have completed my graduation in BTech (Production and
-                Industrial Engineering) from{" "}
+                <span className="different"> Kadapa, Andhra Pradesh (India)</span>.
+                I have completed my graduation in BTech (Computer Science Engineering) from{" "}
                 <span className="different">
-                  Fr. Conceicao Rodrigues College of Engineering, Mumbai (MH)
+                 IIIT RGUKT Rk Valley, Andhra Pradesh (India)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school. Now working as Full-Stack Web developer at{" "}
-                <span className="different">Neviton Softech</span>
+                . Then I have done intership at IB Hubs. Now working as Software Engineer at{" "}
+                <span className="different">Neviton Softech.</span>
               </h4>
               <h4>Terms That can describe me apart from Coding :</h4>
               <h4 className="different">
@@ -40,12 +37,6 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Quick Learner{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Chess Enthusiast{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
