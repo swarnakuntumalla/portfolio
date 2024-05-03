@@ -29,6 +29,14 @@ export const Projects = () => {
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*v2Uyy0xcj9UogsDJ-diU_A.png"
+                    alt="Nxt Trendz"
+                  />
+                </div>
+              </div>
               <div className="project_information">
                 <h2>NXT Trendz</h2>
                 <p>
@@ -105,6 +113,15 @@ export const Projects = () => {
           </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
+            <div className="project_videocontainer">
+                <div>
+                  <img
+                    src=" https://miro.medium.com/v2/resize:fit:1100/format:webp/1*s2z0nOf_Ry4RV29beilv1A.png"
+                    alt="IPL Dashboard"
+                  />
+                </div>
+              </div>
+
               <div className="project_information">
                 <h2>IPL Dashboard</h2>
                 <p>
@@ -118,7 +135,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://linkedin-web-app.netlify.app/"
+                    href="http://swarnaipldash.ccbp.tech"
                     target="_blank"
                     rel="noreferrer"
                   >
