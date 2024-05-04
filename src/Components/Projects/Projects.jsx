@@ -24,6 +24,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import NxtTrendz from "../../assets/NxtTrendz.png";
 import LT from "../../assets/LT.png";
 import ipldashboard from "../../assets/ipldashboard.png";
+import speedTyping from "../../assets/speedTyping.png"
 
 export const Projects = () => {
   return (
@@ -169,32 +170,32 @@ export const Projects = () => {
             </div>
           </div>
 
-          {/* <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/66909138/164240744-5bc86679-e0b5-412b-9cae-1ee40e8aaf68.png"
-                    alt=""
+                    src={speedTyping}
+                    alt="speed Typing Test"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Weather App</h2>
+                <h2>Speed Typing Test</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and can see weather data of respective places. As it
-                  Provides city weather details with inbuild Google-map - using
-                  weather API
+                  Developed an application which measuring time he took to complete given paragraph
+                  Maintained timer by using APIs setTimeInterval, clearTimeInterval and Updated timer in the
+                  UI dynamically using JavaScript DOM operations for every 1 second.
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
                   <IoLogoJavascript />
+                  <FaReact />
+                  <SiHtml5 />
+                  <SiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://ab-weather.netlify.app/"
+                    href="https://swarnatyping.ccbp.tech"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -202,19 +203,10 @@ export const Projects = () => {
                       See this Live
                     </span>
                   </a>
-                  <a
-                    href="https://github.com/Abhi-lab2/Weather-App"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
