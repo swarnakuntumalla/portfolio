@@ -21,6 +21,10 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import NxtTrendz from "../../assets/NxtTrendz.png";
+import LT from "../../assets/LT.png";
+import ipldashboard from "../../assets/ipldashboard.png";
+
 export const Projects = () => {
   return (
     <>
@@ -32,7 +36,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*v2Uyy0xcj9UogsDJ-diU_A.png"
+                    src={NxtTrendz}
                     alt="Nxt Trendz"
                   />
                 </div>
@@ -77,12 +81,21 @@ export const Projects = () => {
           </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={LT}
+                    alt="LT"
+                  />
+                </div>
+              </div>
               <div className="project_information">
                 <h2>LT Learning Platform</h2>
                 <p>
                   Developed to enhance the technical skills of RGUKT students
                 </p>
                 <div>
+                  <SiNodedotjs />
                   <SiExpress />
                   <FaReact />
                   <SiHtml5 />
@@ -113,15 +126,14 @@ export const Projects = () => {
           </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
-            <div className="project_videocontainer">
+              <div className="project_videocontainer">
                 <div>
                   <img
-                    src=" https://miro.medium.com/v2/resize:fit:1100/format:webp/1*s2z0nOf_Ry4RV29beilv1A.png"
+                    src={ipldashboard}
                     alt="IPL Dashboard"
                   />
                 </div>
               </div>
-
               <div className="project_information">
                 <h2>IPL Dashboard</h2>
                 <p>
@@ -144,7 +156,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Abhi-lab2/LinkedIn-Clone"
+                    href="https://github.com/swarnakuntumalla/iplDashboardApp"
                     target="_blank"
                     rel="noreferrer"
                   >
